@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Code Beyond Work: Future Value</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="//codebeyond.work">Home</a>
+                    </li>
+                    <li>
+                        <a href="//codebeyond.work/fv">Future Value</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Future Value</h1>
+            <p>Future value is the value of an asset at a time in the future. It's useful as a means of estimate what investment assets will be worth in 5, 10, 25 years down the road. There's a lot of assumptions one has to make but it's helpful in determining how much money to put aside for retirement. At least, it has been for me.</p>
+            <p>As part of the first code for <a href="//codebeyond.work">Code Beyond Work</a>, I'm going to create a future value javascript module.</p>
+            <p>Some reference links to base this work on:</p>
+            <ul>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Future_value">
+                        Future Value at Wikipedia
+                    </a>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2>Calculate Future Value</h2>
+
+            <form action="" method="POST" id="fv-form">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="present_value">Present Value</label>
+                            </td>
+                            <td>
+                                <input type="text" name="present_value" id="present-value">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="interest_rate">Interest Rate</label>
+                            </td>
+                            <td>
+                                <input type="text" name="interest_rate" id="interest-rate">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="years">Number of years</label>
+                            </td>
+                            <td>
+                                <input type="text" name="years" id="years">
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <button id="calculate">Calculate</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
