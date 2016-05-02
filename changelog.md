@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file. This projec
 - Added normalize.css and simple style.css files.
 - Added SSL cert via Let's Encrypt
 - Added cron job to renew Let's Encrypt SSL certificate
+- Created Github account and pushed repository
 
 ## [0.0.2] - 2016-05-01
 ### Added
