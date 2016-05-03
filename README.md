@@ -5,6 +5,7 @@ By day, I code in PHP and WordPress. These are the tools that got me into progra
 I plan on adding at least 1 thing to the [changelog](changelog.md) every day.
 
 A few rules:
+
 1. No PHP allowed
     * It's my every day language and I know how to solve a lot of problems with it; it's a crutch. And I'm tired of using it.
 1. All work must be done on the server
