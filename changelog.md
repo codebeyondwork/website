@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.0.4] - 2016-05-03
+### Added
+- Added javascript stub files for use soon.
+- Added .gitignore file
+- Added `charset` to HTML pages
+
 ## [0.0.3] - 2016-05-02
 ### Added
 - Added `error_page 405 =200 $uri` in the nginx config to allow POSTing.
