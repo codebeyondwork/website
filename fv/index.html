@@ -33,41 +33,36 @@
 
             <h2>Calculate Future Value</h2>
 
-            <form action="" method="POST" id="future-value">
+            <form action="fv" method="post" id="future-value">
                 <table>
+                    <thead>
+                        <tr>
+                            <th>Initial Amount</th>
+                            <th>Monthly Contributions</th>
+                            <th>Interest Rate</th>
+                            <th>Years to Invest</th>
+                            <th></th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <label for="present_value">Present Value</label>
+                                <input type="number" name="initial_value" id="initial-value" value="30000" required />
                             </td>
                             <td>
-                                <input type="number" name="present_value" id="present-value">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="interest_rate">Interest Rate</label>
+                                <input type="text" name="monthly_contributions" id="monthly-contributions" value="250"  required/ >
                             </td>
                             <td>
-                                <input type="text" name="interest_rate" id="interest-rate">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="years">Number of years</label>
+                                <input type="text" name="interest_rate" id="interest-rate" value="7" required />
                             </td>
                             <td>
-                                <input type="number" name="years" id="years">
+                                <input type="number" name="years" id="years" value="10" required/ >
+                            </td>
+                            <td>
+                                <button type="submit">Calculate</button>
                             </td>
                         </tr>
                     </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2">
-                                <input type="submit" id="calculate" value="Calculate">
-                            </td>
-                        </tr>
-                    </tfoot>
                 </table>
             </form>
         </div>
